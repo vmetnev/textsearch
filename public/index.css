@@ -1,0 +1,105 @@
+.main {
+    width: 80%;
+    margin: 0 auto;
+    outline: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 13px;
+}
+
+mark {
+    color: red;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+    font-size: 12px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    font-size: 12px;
+}
+
+.inputs {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input-search-phrase-p {
+    width: 88%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.input {
+    width: 80%;
+}
+
+.input-button {
+    margin-left: 10px;
+}
+
+.results {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+
+.result {
+    border: 1px solid gray;
+    border-radius: 3px;
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+    margin-top:5px;
+}
+
+.result-first-line {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.result-description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* 
+.result-ticker{
+    
+}
+.result-companyName{
+
+}
+.result-sector{
+
+}
+.result-industry{
+
+}
+
+.results-buttons{
+
+}
+.result-button-save{
+    
+}
+.result-button-go{
+
+}
+
+.result-button-remove{
+
+} */

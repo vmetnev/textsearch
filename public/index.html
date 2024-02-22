@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text search</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="inputs">
+            <input class="input" type="text">
+            <button class="input-button">Search</button>
+        </div>
+        <p class="input-search-phrase-p">Search <mark>phrase</mark>: <span class="search-phrase"></span> Result: <span
+                class="search-result-number"></span></p>
+
+        <div class="results">
+
+        </div>
+    </main>
+
+    <template id="result-template">
+        <div class="result">
+            <div class="result-first-line">
+                <div class="result-ticker"></div>
+                <div class="result-companyName">.</div>
+                <div class="result-mc"></div>
+                <div class="result-sector"></div>
+                <div class="result-industry"></div>
+            </div>
+            <div class="result-description">
+
+            </div>
+            <div class="results-buttons">
+                <button class="result-button-save">Save</button>
+                <button class="result-button-go">Ticker page</button>
+                <button class="result-button-remove">Remove</button>
+            </div>
+        </div>
+    </template>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
